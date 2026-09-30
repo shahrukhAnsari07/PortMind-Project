@@ -1,0 +1,1 @@
+import ScenarioManager from '../components/ScenarioManager';import IncidentCenter from '../components/IncidentCenter';export default function DisruptionPage(){return <div className="stack"><ScenarioManager/><IncidentCenter/></div>}

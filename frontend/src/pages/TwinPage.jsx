@@ -1,0 +1,1 @@
+import PortMap from '../components/PortMap';import GanttChart from '../components/GanttChart';import SimulationControls from '../components/layout/SimulationControls';import LiveActivity from '../components/LiveActivity';export default function TwinPage(){return <div className="stack"><SimulationControls/><PortMap/><GanttChart/><LiveActivity/></div>}

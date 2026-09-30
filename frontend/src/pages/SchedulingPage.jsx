@@ -1,0 +1,1 @@
+import ScheduleTable from '../components/ScheduleTable';import GanttChart from '../components/GanttChart';import AICopilot from '../components/AICopilot';export default function SchedulingPage(){return <div className="stack"><ScheduleTable/><GanttChart/><AICopilot/></div>}

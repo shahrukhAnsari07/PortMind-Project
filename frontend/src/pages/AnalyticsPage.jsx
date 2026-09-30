@@ -1,0 +1,1 @@
+import Analytics from '../components/Analytics';import MonteCarlo from '../components/MonteCarlo';export default function AnalyticsPage(){return <div className="stack"><Analytics/><MonteCarlo/></div>}

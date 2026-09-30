@@ -1,0 +1,2 @@
+import {useSimulation} from '../../context/SimulationContext';
+export default function Topbar({title}){const {healthData,loading}=useSimulation();return <header className="topbar"><div><small>PORT OPERATIONS / DIGITAL TWIN</small><h1>{title}</h1></div><div className="top-status"><span className={`dot ${healthData?'online':''}`}/>{loading?'Simulation running':'Backend '+(healthData?'online':'offline')}</div></header>}
